@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/rargotte/team-profile-generator#readme",
   "dependencies": {
     "inquirer": "^8.2.0",
+    "jtest": "^0.0.1",
     "just": "^0.1.8"
   },
   "devDependencies": {
