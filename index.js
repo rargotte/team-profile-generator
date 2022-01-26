@@ -84,7 +84,7 @@ function buildHTML() {
             newCard = newCard.replace('Name', employee.getName());
             newCard = newCard.replace('Role', employee.getRole());
             newCard = newCard.replace('ID', `ID: ${employee.getId()}`);
-            newCard = newCard.replaceAll('email', employee.getEmail());
+            newCard = newCard.replaceAll('email',` ${employee.getEmail()}`);
 
             switch (employee.getRole()) {
                 case 'Manager':
